@@ -58,6 +58,23 @@ let person = {
 console.log(person.name,person.age,person.country);
 let {name, age, country} = person;
 console.log(name,age,country);
+//...another example
+let thing = {
+    id: "1",
+    name : "car",
+    description: "the car is for move between places.",
+}
+//...object car
+{id: "1", name: "car", description: "the car is for move between places."}
+//...assign
+let {id, name, description} = thing
+//...results
+id
+"1"
+name
+"car"
+description
+"the car is for move between places."
 ```
 
 - Spread operator
